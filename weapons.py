@@ -1,3 +1,8 @@
+"""
+🖋️CODED BY GRISZ
+"""
+
+
 class Weapons:
 
     def __init__(self):
@@ -19,3 +24,7 @@ class Hammer(Weapons):
         self.Name = "Hammer"
         self.Damages = 100
         
+        
+"""
+🖋️CODED BY GRISZ
+"""
