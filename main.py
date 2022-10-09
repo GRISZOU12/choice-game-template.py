@@ -58,8 +58,10 @@ while launch:
 random_biome_Id = random.randint(1, 2)
 
 if random_biome_Id == biome_plain.Id:
-    print(f"|You spawned in : {biome_plain.Name}")
+    spawn_biome = biome_plain.Name
 elif random_biome_Id == biome_desert.Id:
-    print(f"|You spawned in : {biome_desert.Name}")
+    spawn_biome = biome_desert.Name
+
+print(f"|You spawned in : {spawn_biome}")
 
 functions.pause(general_pause_reason)
