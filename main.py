@@ -61,7 +61,5 @@ if random_biome_Id == biome_plain.Id:
     print(f"|You spawned in : {biome_plain.Name}")
 elif random_biome_Id == biome_desert.Id:
     print(f"|You spawned in : {biome_desert.Name}")
-else:
-    print("a")
 
 functions.pause(general_pause_reason)
