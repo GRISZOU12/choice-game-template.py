@@ -9,4 +9,3 @@ def pause(reason):
 def clear():
     os.system("cls")
     # this function is here to clear the console
-
