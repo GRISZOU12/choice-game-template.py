@@ -15,7 +15,6 @@ biome_desert = biome.Desert()
 functions.clear()
 print("+--------------------\n|Welcome to THE GAME|\n+--------------------")
 
-general_pause_reason = "|Press ENTER key to continue..."
 
 while launch:
 
@@ -39,19 +38,19 @@ while launch:
         elif perso == 3:
             print(f" - {Lumberjack.Name} have the weapon : {Lumberjack.Weapon.__name__}")
             print(f" - {Stonecutter.Name} have the weapon : {Stonecutter.Weapon.__name__}")
-            functions.pause(general_pause_reason)
+            functions.pause(functions.general_pause_reason)
             functions.clear()
 
         else:
             print(f"|Please enter 1 or 2 not : {perso}")
-            functions.pause(general_pause_reason)
+            functions.pause(functions.general_pause_reason)
             functions.clear()
 
     except ValueError:
 
         print("|Please enter 1 or 2 not : (it's a string not an int)")
 
-        functions.pause(general_pause_reason)
+        functions.pause(functions.general_pause_reason)
         functions.clear()
 
 
@@ -62,6 +61,6 @@ if random_biome_Id == biome_plain.Id:
 elif random_biome_Id == biome_desert.Id:
     spawn_biome = biome_desert.Name
 
-print(f"|You spawned in : {spawn_biome}")
+print(f"|You spawned in : {spawn_biome}\n")
 
-functions.pause(general_pause_reason)
+functions.two_choices("Go to the north", "Go to the south", "|You are in front of a river", "|You are in front of a mountain", "|In north there is a river but in south there is a village")
