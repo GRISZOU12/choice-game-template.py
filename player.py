@@ -1,3 +1,8 @@
+"""
+🖋️CODED BY GRISZ
+"""
+
+
 import weapons
 weapon = weapons.Weapons()
 Axe = weapons.Axe
@@ -26,3 +31,8 @@ class Stonecutter(Characters):
         self.Id = 2
         self.Name = "Stonecutter"
         self.Weapon = Hammer
+
+        
+"""
+🖋️CODED BY GRISZ
+"""
