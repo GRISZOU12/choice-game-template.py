@@ -1,15 +1,23 @@
 import functions
 import player
+import biome
+import random
 
+launch = True
 players = player.Characters(100)
 Lumberjack = player.Lumberjack()
 Stonecutter = player.Stonecutter()
 
+biomes = biome.Biome()
+biome_plain = biome.Plain()
+biome_desert = biome.Desert()
+
+functions.clear()
 print("+--------------------\n|Welcome to THE GAME|\n+--------------------")
 
 general_pause_reason = "|Press ENTER key to continue..."
 
-while True:
+while launch:
 
     print(f"\n|To begin the adventure please choose one of those characters : \n1.{Lumberjack.Name}\n2.{Stonecutter.Name}\n")
     perso = input("|please enter the number of your choice [1|2] or 3 for characters description > ")
@@ -18,12 +26,14 @@ while True:
 
         perso = int(perso)
 
-        if perso == Lumberjack.id:
+        if perso == Lumberjack.Id:
             print(f"|Ok so your character will be the {Lumberjack.Name}")
+            launch = False
             break
 
-        elif perso == Stonecutter.id:
+        elif perso == Stonecutter.Id:
             print(f"|Ok so your character will be the {Stonecutter.Name}")
+            launch = False
             break
 
         elif perso == 3:
@@ -43,3 +53,15 @@ while True:
 
         functions.pause(general_pause_reason)
         functions.clear()
+
+
+random_biome_Id = random.randint(1, 2)
+
+if random_biome_Id == biome_plain.Id:
+    print(f"|You spawned in : {biome_plain.Name}")
+elif random_biome_Id == biome_desert.Id:
+    print(f"|You spawned in : {biome_desert.Name}")
+else:
+    print("a")
+
+functions.pause(general_pause_reason)

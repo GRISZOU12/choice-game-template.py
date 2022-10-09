@@ -14,7 +14,7 @@ class Lumberjack(Characters):
 
     def __init__(self):
         super(Characters, self).__init__()
-        self.id = 1
+        self.Id = 1
         self.Name = "Lumberjack"
         self.Weapon = Axe
 
@@ -23,6 +23,6 @@ class Stonecutter(Characters):
 
     def __init__(self):
         super(Characters, self).__init__()
-        self.id = 2
+        self.Id = 2
         self.Name = "Stonecutter"
         self.Weapon = Hammer
