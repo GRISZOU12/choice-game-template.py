@@ -1,3 +1,8 @@
+"""
+🖋️CODED BY GRISZ
+"""
+
+
 class Biome:
 
     def __init__(self):
@@ -31,3 +36,7 @@ class Desert(Biome):
             "Relief": "Dune"
         }
 
+        
+"""
+🖋️CODED BY GRISZ
+"""
