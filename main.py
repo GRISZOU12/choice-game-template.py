@@ -1,3 +1,8 @@
+"""
+🖋️CODED BY GRISZ
+"""
+
+
 import functions
 import player
 import biome
@@ -64,3 +69,8 @@ elif random_biome_Id == biome_desert.Id:
 print(f"|You spawned in : {spawn_biome}\n")
 
 functions.two_choices("Go to the north", "Go to the south", "|You are in front of a river", "|You are in front of a mountain", "|In north there is a river but in south there is a village")
+
+
+"""
+🖋️CODED BY GRISZ
+"""
