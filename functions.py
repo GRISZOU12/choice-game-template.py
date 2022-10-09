@@ -1,3 +1,8 @@
+"""
+🖋️CODED BY GRISZ
+"""
+
+
 import os
 
 general_pause_reason = "|Press ENTER key to continue..."
@@ -52,3 +57,7 @@ def two_choices(choice1, choice2, now_1, now_2, description):
             pause(general_pause_reason)
             clear()
 
+
+"""
+🖋️CODED BY GRISZ
+"""
