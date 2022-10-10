@@ -1,5 +1,5 @@
 """
-🖋️CODED BY GRISZ
+🖋️WRITTEN BY GRISZ
 """
 
 
@@ -72,5 +72,5 @@ functions.two_choices("Go to the north", "Go to the south", "|You are in front o
 
 
 """
-🖋️CODED BY GRISZ
+🖋️WRITTEN BY GRISZ
 """
