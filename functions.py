@@ -1,5 +1,5 @@
 """
-🖋️ WRITTEN BY GRISZ
+🖋️WRITTEN BY GRISZ
 """
 
 
@@ -59,5 +59,5 @@ def two_choices(choice1, choice2, now_1, now_2, description):
 
 
 """
-🖋️ WRITTEN BY GRISZ
+🖋️WRITTEN BY GRISZ
 """
