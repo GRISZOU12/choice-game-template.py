@@ -1,5 +1,5 @@
 """
-🖋️CODED BY GRISZ
+🖋️WRITTEN BY GRISZ
 """
 
 
@@ -26,5 +26,5 @@ class Hammer(Weapons):
         
         
 """
-🖋️CODED BY GRISZ
+🖋️WRITTEN BY GRISZ
 """
