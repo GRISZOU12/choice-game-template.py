@@ -1,5 +1,5 @@
 """
-🖋️CODED BY GRISZ
+🖋️WRITTEN BY GRISZ
 """
 
 
@@ -34,5 +34,5 @@ class Stonecutter(Characters):
 
         
 """
-🖋️CODED BY GRISZ
+🖋️WRITTEN BY GRISZ
 """
