@@ -1,5 +1,5 @@
 """
-🖋️CODED BY GRISZ
+🖋️WRITTEN BY GRISZ
 """
 
 
@@ -38,5 +38,5 @@ class Desert(Biome):
 
         
 """
-🖋️CODED BY GRISZ
+🖋️WRITTEN BY GRISZ
 """
